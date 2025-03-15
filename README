@@ -1,0 +1,32 @@
+# TexHome
+> Self Tex Tempaltes Repository
+
+## Install Tex
+
+> Enviroment: ubuntu 22.04 LTS
+
+```
+sudo apt-get install texlive-full
+```
+
+It will take a long time to install it.
+
+## Tex Template
+
+> This will be added slowly.
+
+### Homework Report Template
+
+This template is for homework report.
+
+## How to use
+
+At first, add the sty in your Tex file.
+
+```
+% use sty file xxx.sty
+\usepackage{xxx}
+```
+
+After add the sty file, you can add your own words in tex file, for more information such as 
+function or others, you can read the sty file.
