@@ -1,0 +1,29 @@
+\usepackage[UTF8]{ctex}     % support chinese
+
+\usepackage{fancyhdr}       % header
+\usepackage{enumitem}       % enum
+\usepackage{listings}       % code sytle
+\usepackage{xcolor}         %
+\usepackage{amsmath}        % math
+% \usepackage{fullpage}       % full page
+\usepackage{graphicx}       % graph
+
+% header style
+\setlength{\headheight}{12.0pt} 
+\fancyhf{}
+\fancyhead[L]{\textbf{Name:} LNfromNorth \textbf{ID:} 123456}
+\fancyhead[C]{\textbf{Class}}
+\fancyhead[R]{\textbf{Homework Num:} x}
+
+% code style
+\lstset{
+    language=Python,
+    basicstyle=\ttfamily\scriptsize,
+    numbers=left,
+    numberstyle=\scriptsize\color{gray},
+    keywordstyle=\color{blue},
+    commentstyle=\color{green},
+    stringstyle=\color{red},
+    frame=single,
+    breaklines=true
+}
